@@ -1,13 +1,12 @@
 import Foundation
 
-func solution(_ denum1: Int, _ num1: Int, _ denume2: Int, _ num2: Int) -> [Int] {
+func solution(_ denum1: Int, _ num1: Int, _ denum2: Int, _ num2: Int) -> [Int] {
     // 제한 사항
-    guard (denum1 > 0), (num1 < 1000), (denume2 < 1000), (num2 < 1000) else {
-        return [-1]
-    }
+	guard (1...999 ~= denum1), (1...999 ~= num1), (1...999 ~= denum2), (1...999 ~= num2) else
+	{ return [-1] }
     
     // 문제 풀이
-    var denum = (denum1 * num2) + (denume2 * num1)
+    var denum = (denum1 * num2) + (denum2 * num1)
     var num = (num1 * num2)
     
     

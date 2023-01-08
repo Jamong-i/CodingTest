@@ -2,7 +2,7 @@ import Foundation
 
 func solution(_ num1: Int, _ num2: Int) -> Int {
     // 제한 사항
-    guard (num1 >= 0 && num2 <= 100), (num2 >= 0 && num2 <= 100) else {
+	guard (0...100 ~= num1), (0...100 ~= num2) else {
         return -1
     }
     

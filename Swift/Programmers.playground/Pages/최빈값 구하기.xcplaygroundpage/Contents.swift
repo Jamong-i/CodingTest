@@ -11,7 +11,7 @@ func solution1(_ array:[Int]) -> Int {
 	var count = 0
 	
 	for i in array {
-		if dictionary.contains { $0.key == i} {
+		if dictionary.contains { $0.key == i } {
 			dictionary[i]! += 1
 		} else {
 			dictionary[i] = 1

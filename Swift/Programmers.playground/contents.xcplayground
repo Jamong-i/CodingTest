@@ -19,6 +19,9 @@
         <page name='배열의 평균값'/>
         <page name='옷가게 할인 받기'/>
         <page name='아이스 아메리카노'/>
-        <page name='나이 출력'/>
+        <page name='나이 출력'/>
+        <page name='배열 뒤집기'/>
+        <page name='문자열 뒤집기'/>
+        <page name='직각삼각형 출력하기'/>
     </pages>
 </playground>

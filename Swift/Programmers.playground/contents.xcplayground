@@ -26,6 +26,12 @@
         <page name='짝수 홀수 개수'/>
         <page name='문자 반복 출력하기'/>
         <page name='특정 문자 제거하기'/>
-        <page name='각도기'/>
+        <page name='각도기'/>
+        <page name='양꼬치'/>
+        <page name='짝수의 합'/>
+        <page name='배열 자르기 '/>
+        <page name='외계행성의 나이'/>
+        <page name='진료 순서 정하기'/>
+        <page name='순서쌍의 개수'/>
     </pages>
 </playground>

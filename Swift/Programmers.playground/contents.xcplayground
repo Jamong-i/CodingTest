@@ -32,6 +32,9 @@
         <page name='배열 자르기 '/>
         <page name='외계행성의 나이'/>
         <page name='진료 순서 정하기'/>
-        <page name='순서쌍의 개수'/>
+        <page name='순서쌍의 개수'/>
+        <page name='개미 군단'/>
+        <page name='모스부호(1)'/>
+        <page name='가위 바위 보'/>
     </pages>
 </playground>

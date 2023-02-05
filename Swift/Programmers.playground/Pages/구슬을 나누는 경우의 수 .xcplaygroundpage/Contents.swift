@@ -7,12 +7,12 @@ func solution(_ balls: Int, _ share: Int) -> Int {
 	
 	// 문제 풀이 (서로 다른 n개 중 m개를 뽑는 경우의 수 공식 : n!/ (n-m)! * m!
 	
-	var denominator: [UInt] = []
-	var totalDenomiator: [UInt] = []
-	var numerator: [UInt] = []
-	var totalNumerator: [UInt] = []
-	var mToDe: [UInt] = []
-	var m: [UInt] = []
+	var denominator: [Double] = []
+	var totalDenomiator: [Double] = []
+	var numerator: [Double] = []
+	var totalNumerator: [Double] = []
+	var mToDe: [Double] = []
+	var m: [Double] = []
 	
 	// 볼과 공유갯수가 같을 때 1 반환
 	if balls == share {
@@ -21,17 +21,17 @@ func solution(_ balls: Int, _ share: Int) -> Int {
 		
 		// 분자 n! 배열로 저장
 		for i in 1...balls {
-			denominator.append(UInt(i))
+			denominator.append(Double(i))
 		}
 		
 		// 분모 (n-m)! 배열로 저장
 		for i in 1...(balls - share) {
-			numerator.append(UInt(i))
+			numerator.append(Double(i))
 		}
 		
 		// 분모 m! 배열로 저장
 		for i in 1...share {
-			m.append(UInt(i))
+			m.append(Double(i))
 		}
 		
 		// 분자 n!에서 (n-m)!의 공통 원소 제거

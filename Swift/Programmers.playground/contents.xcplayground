@@ -38,6 +38,7 @@
         <page name='구슬을 나누는 경우의 수 '/>
         <page name='모스부호(1)'/>
         <page name='점의 위치 구하기'/>
-        <page name='2차원으로 만들기'/>
+        <page name='2차원으로 만들기'/>
+        <page name='공 던지기'/>
     </pages>
 </playground>

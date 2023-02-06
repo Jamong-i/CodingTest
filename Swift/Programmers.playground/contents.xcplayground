@@ -39,6 +39,9 @@
         <page name='모스부호(1)'/>
         <page name='점의 위치 구하기'/>
         <page name='2차원으로 만들기'/>
-        <page name='공 던지기'/>
+        <page name='공 던지기'/>
+        <page name='배열 회전시키기'/>
+        <page name='주사위의 개수'/>
+        <page name='합성수 찾기'/>
     </pages>
 </playground>

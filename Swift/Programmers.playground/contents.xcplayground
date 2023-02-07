@@ -42,6 +42,8 @@
         <page name='공 던지기'/>
         <page name='배열 회전시키기'/>
         <page name='주사위의 개수'/>
-        <page name='합성수 찾기'/>
+        <page name='합성수 찾기'/>
+        <page name='팩토리얼'/>
+        <page name='최대값 만들기'/>
     </pages>
 </playground>

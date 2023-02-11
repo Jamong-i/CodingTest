@@ -46,6 +46,8 @@
         <page name='최대값 만들기'/>
         <page name='팩토리얼'/>
         <page name='모음 제거'/>
-        <page name='문자열 정렬하기(1)'/>
+        <page name='문자열 정렬하기(1)'/>
+        <page name='숨어있는 숫자의 덧셈(1)'/>
+        <page name='소인수분해'/>
     </pages>
 </playground>

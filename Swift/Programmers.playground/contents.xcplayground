@@ -50,5 +50,7 @@
         <page name='숨어있는 숫자의 덧셈(1)'/>
         <page name='소인수분해'/>
         <page name='Test'/>
+        <page name='컨트롤 제트'/>
+        <page name='배열 원소의 길이'/>
     </pages>
 </playground>

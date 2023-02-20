@@ -51,6 +51,7 @@
         <page name='소인수분해'/>
         <page name='Test'/>
         <page name='컨트롤 제트'/>
-        <page name='배열 원소의 길이'/>
+        <page name='배열 원소의 길이'/>
+        <page name='중복된 문자 제거'/>
     </pages>
 </playground>

@@ -7,7 +7,7 @@ func solution(_ num1: Int, _ num2: Int) -> Int {
     }
     
     // 문제 풀이
-    let mul = num1 * num2컨
+    let mul = num1 * num2
     return mul
 }
 

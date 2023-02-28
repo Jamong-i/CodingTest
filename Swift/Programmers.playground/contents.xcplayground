@@ -52,6 +52,10 @@
         <page name='Test'/>
         <page name='컨트롤 제트'/>
         <page name='배열 원소의 길이'/>
-        <page name='중복된 문자 제거'/>
+        <page name='삼각형의 완성조건(1)'/>
+        <page name='중복된 문자 제거'/>
+        <page name='가까운 수'/>
+        <page name='369게임'/>
+        <page name='암호 해독'/>
     </pages>
 </playground>

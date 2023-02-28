@@ -1,6 +1,8 @@
-import Foundation
+var chr: Character = "4"
+var num: Int
 
-var num = 1000
-var numArray = Array(repeating: 0, count: num + 1)
+num = 4
 
-print(numArray)
+num = Int(chr)
+
+print(num)

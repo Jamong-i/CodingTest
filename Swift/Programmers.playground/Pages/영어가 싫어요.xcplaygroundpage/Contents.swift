@@ -14,6 +14,3 @@ func solution(_ numbers: String) -> Int64 {
 	
 	return Int64(num)!
 }
-
-
-//

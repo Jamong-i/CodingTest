@@ -58,6 +58,9 @@
         <page name='369게임'/>
         <page name='대문자와 소문자'/>
         <page name='암호 해독'/>
-        <page name='영어가 싫어요'/>
+        <page name='영어가 싫어요'/>
+        <page name='인덱스 바꾸기'/>
+        <page name='한 번만 등장한 문자'/>
+        <page name='약수 구하기'/>
     </pages>
 </playground>

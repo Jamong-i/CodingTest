@@ -1,19 +1,7 @@
-import Foundation
+var stringCount: [String: Int] = ["a": 0, "b": 0, "c": 0, "d": 0, "e": 0, "f": 0, "g": 0, "h": 0, "i": 0, "j": 0, "k": 0, "l": 0, "m": 0, "n": 0, "o": 0, "p": 0, "q": 0, "r": 0, "s": 0, "t": 0, "u": 0, "v": 0, "w": 0, "x": 0, "y": 0, "z": 0]
 
-func solution(_ numbers: String) -> Int64 {
-	// 제한사항
-	guard 1...50 ~= numbers.count else { return 0 }
-	
-	// 문제 풀이
-	var num: String = numbers
-	var englishToNum: [String: String] = ["zero": "0", "one": "1", "two": "2", "three": "3", "four": "4", "five": "5", "six": "6", "seven": "7", "eight": "8", "nine": "9"]
-	
-	for i in englishToNum {
-		num = num.replacingOccurrences(of: i.key, with: i.value)
-	}
-	
-	return Int64(num)!
+var countDict = [String: Int]()
+
+for i in stringCount {
+	countDict[i, default: 0] += 1
 }
-
-
-//

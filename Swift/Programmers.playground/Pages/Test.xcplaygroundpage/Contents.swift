@@ -1,7 +1,29 @@
-var stringCount: [String: Int] = ["a": 0, "b": 0, "c": 0, "d": 0, "e": 0, "f": 0, "g": 0, "h": 0, "i": 0, "j": 0, "k": 0, "l": 0, "m": 0, "n": 0, "o": 0, "p": 0, "q": 0, "r": 0, "s": 0, "t": 0, "u": 0, "v": 0, "w": 0, "x": 0, "y": 0, "z": 0]
-
-var countDict = [String: Int]()
-
-for i in stringCount {
-	countDict[i, default: 0] += 1
+func calculate(_ expression: String) -> Int {
+	// 공백을 제거하고 숫자와 연산자를 배열로 분리합니다.
+	let tokens = expression.replacingOccurrences(of: " ", with: "").components(separatedBy: ["+", "-"])
+	let operators = expression.filter({ $0 == "+" || $0 == "-" }).map({ String($0) })
+	
+	// 첫 번째 숫자 검증
+	guard let first = Int(tokens[0]), 1...20000 ~= first else { return -1 }
+	var result = first
+	
+	// 연산자 우선순위에 따라 순차적으로 계산합니다.
+	var currentIndex = 0
+	for op in ["+", "-"] {
+		while let nextIndex = operators[currentIndex...].firstIndex(of: op) {
+			let endIndex = nextIndex + currentIndex
+			let operand = Int(tokens[endIndex])!
+			switch op {
+			case "+":
+				result += operand
+			case "-":
+				result -= operand
+			default:
+				break
+			}
+			currentIndex = endIndex + 1
+		}
+	}
+	
+	return result
 }

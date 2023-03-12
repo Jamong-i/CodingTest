@@ -64,6 +64,7 @@
         <page name='약수 구하기'/>
         <page name='편지'/>
         <page name='가장 큰 수 찾기'/>
-        <page name='문자열 계산기'/>
+        <page name='문자열 계산기'/>
+        <page name='배열의 유사도'/>
     </pages>
 </playground>
